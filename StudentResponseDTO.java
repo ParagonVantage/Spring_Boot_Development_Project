@@ -1,5 +1,3 @@
-package com.example.springdemo.dto;
-
 import java.util.List;
 
 public class StudentResponseDTO {
@@ -21,3 +19,4 @@ public class StudentResponseDTO {
     public int getAge() { return age; }
     public List<String> getCourses() { return courses; }
 }
+
