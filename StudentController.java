@@ -1,5 +1,3 @@
-package com.example.springdemo.controller;
-
 import java.util.List;
 
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -59,3 +57,4 @@ public class StudentController {
         return "Deleted student " + id;
     }
 }
+
