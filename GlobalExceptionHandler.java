@@ -1,5 +1,3 @@
-package com.example.springdemo.exception;
-
 import java.util.HashMap;
 import java.util.Map;
 
@@ -31,3 +29,4 @@ public class GlobalExceptionHandler {
         return new ResponseEntity(body, HttpStatus.NOT_FOUND);
     }
 }
+
