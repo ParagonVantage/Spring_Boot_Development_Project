@@ -1,5 +1,3 @@
-package com.example.springdemo.dto;
-
 import java.util.List;
 
 import jakarta.validation.constraints.Max;
@@ -26,3 +24,4 @@ public class StudentRequestDTO {
     public List<String> getCourses() { return courses; }
     public void setCourses(List<String> courses) { this.courses = courses; }
 }
+
