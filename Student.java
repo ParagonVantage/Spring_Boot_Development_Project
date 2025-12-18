@@ -1,5 +1,3 @@
-package com.example.springdemo.model;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -57,3 +55,4 @@ public class Student {
     public List<Course> getCourses() { return courses; }
     public void setCourses(List<Course> courses) { this.courses = courses; }
 }
+
